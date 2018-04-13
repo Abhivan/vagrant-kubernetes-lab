@@ -45,6 +45,8 @@ Here is the current list by category :
 Installed by default, only helm client is required to fit your host OS : https://github.com/kubernetes/helm/releases
 ### Jenkins
 - Jenkins can be installed on cluster with helm:
-  helm --namespace jenkins --name jenkins -f jenkins/jenkins-values.yaml install stable/jenkins
+  ```
+    helm --namespace jenkins --name jenkins -f jenkins/jenkins-values.yaml install stable/jenkins
+  ```
   `jenkins-values.yaml` includes kubernetes plugin and some other essential ones.
 ##### Have a look at the README.md in related subdirectories for specific instructions.
