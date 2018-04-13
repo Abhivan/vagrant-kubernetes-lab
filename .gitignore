@@ -1,0 +1,6 @@
+*.log
+.vagrant
+kubeconfig/admin.conf
+.DS_Store
+kube_storage
+jenkins_data
